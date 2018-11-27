@@ -13,7 +13,7 @@ class River
   end
 
   def take_fish(fish)
-    return fish.pop
+    result = @fish.pop
   end
 
 end

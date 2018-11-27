@@ -32,4 +32,6 @@ class BearTest < MiniTest::Test
     assert_equal([], @bear1.stomach)
   end
 
+  
+
 end
