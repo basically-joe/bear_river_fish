@@ -29,6 +29,7 @@ class BearTest < MiniTest::Test
   end
 
   def test_bear_stomach__empty
-    assert_equal(0, @bear1.stomach)
+    assert_equal([], @bear1.stomach)
   end
+
 end

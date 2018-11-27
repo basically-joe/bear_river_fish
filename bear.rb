@@ -1,6 +1,7 @@
 class Bear
 
 attr_reader :name, :type
+attr_accessor :stomach
 
   def initialize(name, type)
     @name = name
@@ -11,4 +12,9 @@ attr_reader :name, :type
   def bear_name(name)
     return name
   end
+
+def bear_stomach(stomach)
+   return @stomach
+end
+
 end
