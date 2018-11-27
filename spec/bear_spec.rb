@@ -20,12 +20,15 @@ class BearTest < MiniTest::Test
 
   end
 
-def test_bear_name
-  assert_equal("Yogi", @bear1.name)
-end
+  def test_bear_name
+    assert_equal("Yogi", @bear1.name)
+  end
 
-def test_bear_type
-  assert_equal("Grizzly", @bear1.type)
-end
+  def test_bear_type
+    assert_equal("Grizzly", @bear1.type)
+  end
 
+  def test_bear_stomach__empty
+    assert_equal(0, @bear1.stomach)
+  end
 end
