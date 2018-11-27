@@ -9,7 +9,7 @@ We are going to build a small ecosystem! We want to create an ecosystem made up 
 - A fish should have a name - done
 
 - A bear should have a name e.g. "Yogi" and a type e.g. "Grizzly" - done
-- A bear should have an empty stomach ( maybe an array ) 
+- A bear should have an empty stomach ( maybe an array ) - done
 
 - A bear should be able to take a fish from the river
 - A river should lose a fish when a bear takes a fish
