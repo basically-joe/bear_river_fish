@@ -13,7 +13,8 @@ class River
   end
 
   def take_fish(fish)
-    result = @fish.pop
+    index = @fish.index(fish)
+    @fish.slice!(index, 1)
   end
 
 end

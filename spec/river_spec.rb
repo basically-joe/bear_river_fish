@@ -25,8 +25,8 @@ class RiverTest < MiniTest::Test
   end
 
   def test_take_fish
-    result = @river.take_fish
-      assert_equal(4, result.count_fish_in_river)
-    end
+    @river.take_fish(@fish_nemo)
+    assert_equal(4, @river.count_fish_in_river)
+  end
 
 end
