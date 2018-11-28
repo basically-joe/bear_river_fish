@@ -1,7 +1,7 @@
 class Bear
 
-attr_reader :name, :type
-attr_accessor :stomach
+  attr_reader :name, :type
+  attr_accessor :stomach
 
   def initialize(name, type)
     @name = name
@@ -13,8 +13,12 @@ attr_accessor :stomach
     return name
   end
 
-def bear_stomach(stomach)
-   return @stomach
-end
+  def bear_stomach(stomach)
+    return @stomach
+  end
+
+  def bear_eat_fish(stomach)
+    @stomach << stomach
+  end
 
 end

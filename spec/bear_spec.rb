@@ -32,6 +32,9 @@ class BearTest < MiniTest::Test
     assert_equal([], @bear1.stomach)
   end
 
-  
+  def test_eat_fish
+    @bear1.bear_eat_fish(@fish_nemo)
+    assert_equal(["Nemo"], @bear1.stomach)
+  end
 
 end
